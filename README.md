@@ -1,19 +1,20 @@
-# Proyecto Ice / Project ice
+# video-game-sales-analysis
 Proyecto integrado - La tienda online Ice que vende videojuegos por todo el mundo / Integrated Project - The Online Store Ice Selling Video Games Worldwide.
 
 Proyecto hecho para TripleTen (Bootcamp online) - Sprint 7 / Project completed for TripleTen (Online Bootcamp) - Sprint 7
 
-## Descripción del proyecto / Project Description
-La tienda online Ice  vende videojuegos por todo el mundo. Las reseñas de usuarios y expertos, los géneros, las plataformas (por ejemplo, Xbox o PlayStation) y los datos históricos sobre las ventas de juegos están disponibles en fuentes abiertas. El objetivo es identificar patrones que determinen si un juego tiene éxito o no. Esto permitirá detectar proyectos prometedores y planificar campañas publicitarias.
+## Contexto del Proyecto / Project Context::
+Este proyecto se centra en el análisis de los datos de ventas globales de videojuegos para identificar patrones y predecir el éxito de futuros lanzamientos. Los datos incluyen información sobre ventas en diferentes plataformas y regiones, así como calificaciones de críticos y usuarios. El análisis busca identificar qué factores influyen en el éxito de los videojuegos, como la plataforma, el género y las calificaciones de los usuarios. Los resultados pueden ayudar a planificar campañas publicitarias y tomar decisiones informadas sobre qué videojuegos tienen mayor potencial de éxito.
 
-Los datos proporcionados se remontan a 2016 y se está planeando una campaña para 2017.
+---
 
-El dataset contiene una columna "rating" que almacena la clasificación ESRB de cada juego. El Entertainment Software Rating Board (la Junta de clasificación de software de entretenimiento) evalúa el contenido de un juego y asigna una clasificación de edad como Adolescente o Adulto.
+This project focuses on analyzing global video game sales data to identify patterns and predict the success of future releases. The data includes sales information across different platforms and regions, as well as ratings from critics and users. The analysis seeks to identify what factors influence the success of video games, such as platform, genre and user ratings. The results can help plan advertising campaigns and make informed decisions about which video games have the greatest potential for success.
 
---- 
+## Herramientas Utilizadas / Tools Used:
+1. Python:
+  - pandas: Para manipulación y análisis de datos (limpieza, transformación y agregación de datos) / For data manipulation and analysis (data cleaning, transformation, and aggregation).
+  - matplotlib y seaborn: Para crear visualizaciones (gráficos de dispersión, diagramas de caja y distribuciones de ventas). / For creating visualizations (scatter plots, box plots and sales distributions).
+  - scipy: Para realizar pruebas estadísticas (como la comparación de medias y análisis de correlación). / To perform statistical tests (such as comparison of means and correlation analysis).
+2. Jupyter Notebook: Entorno interactivo utilizado para escribir y ejecutar el código de manera documentada, combinando análisis y visualización en un solo lugar. / Interactive environment used to write and execute code in a documented manner, combining analysis and visualization in one place.
+3. Análisis Estadístico: Se aplican pruebas estadísticas para validar hipótesis, como la comparación de calificaciones promedio entre plataformas o géneros. / Statistical tests are applied to validate hypotheses, such as the comparison of average scores between platforms or genres.
 
-The online store Ice sells video games worldwide. User and expert reviews, genres, platforms (e.g., Xbox or PlayStation), and historical sales data are available from open sources. The goal is to identify patterns that determine whether a game is successful, enabling the detection of promising projects and the planning of advertising campaigns.
-
-The provided data dates back to 2016, with a campaign planned for 2017.
-
-The dataset includes a "rating" column that stores the ESRB rating for each game. The Entertainment Software Rating Board evaluates the content of a game and assigns an age rating, such as "Teen" or "Mature."
